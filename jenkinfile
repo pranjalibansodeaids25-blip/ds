@@ -1,0 +1,14 @@
+
+pipeline {
+    agent any
+
+    stages {
+        stage('Build') {
+            steps {
+                echo 'Jenkins Pipeline Started!'
+                echo 'Building Data Science Project'
+                echo 'Build Successful!'
+            }
+        }
+    }
+}
